@@ -1,0 +1,146 @@
+{
+  "format": 1,
+  "restore": {
+    "/home/pece/projects/sy/blazor-chat-app/ChatApp/Client/ChatApp.Client.csproj": {}
+  },
+  "projects": {
+    "/home/pece/projects/sy/blazor-chat-app/ChatApp/Client/ChatApp.Client.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/pece/projects/sy/blazor-chat-app/ChatApp/Client/ChatApp.Client.csproj",
+        "projectName": "ChatApp.Client",
+        "projectPath": "/home/pece/projects/sy/blazor-chat-app/ChatApp/Client/ChatApp.Client.csproj",
+        "packagesPath": "/home/pece/.nuget/packages/",
+        "outputPath": "/home/pece/projects/sy/blazor-chat-app/ChatApp/Client/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/pece/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {},
+          "https://vparteam.pkgs.visualstudio.com/_packaging/VPAR/nuget/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "/home/pece/projects/sy/blazor-chat-app/ChatApp/Shared/ChatApp.Shared.csproj": {
+                "projectPath": "/home/pece/projects/sy/blazor-chat-app/ChatApp/Shared/ChatApp.Shared.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.Components.WebAssembly": {
+              "target": "Package",
+              "version": "[6.0.20, )"
+            },
+            "Microsoft.AspNetCore.Components.WebAssembly.DevServer": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[6.0.20, )"
+            },
+            "MudBlazor": {
+              "target": "Package",
+              "version": "[6.7.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.NETCore.App.Runtime.Mono.browser-wasm",
+              "version": "[6.0.20, 6.0.20]"
+            }
+          ],
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/6.0.412/RuntimeIdentifierGraph.json"
+        }
+      },
+      "runtimes": {
+        "browser-wasm": {
+          "#import": []
+        }
+      }
+    },
+    "/home/pece/projects/sy/blazor-chat-app/ChatApp/Shared/ChatApp.Shared.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/pece/projects/sy/blazor-chat-app/ChatApp/Shared/ChatApp.Shared.csproj",
+        "projectName": "ChatApp.Shared",
+        "projectPath": "/home/pece/projects/sy/blazor-chat-app/ChatApp/Shared/ChatApp.Shared.csproj",
+        "packagesPath": "/home/pece/.nuget/packages/",
+        "outputPath": "/home/pece/projects/sy/blazor-chat-app/ChatApp/Shared/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/pece/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {},
+          "https://vparteam.pkgs.visualstudio.com/_packaging/VPAR/nuget/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/6.0.412/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
