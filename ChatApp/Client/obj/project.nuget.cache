@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "tfTOIz03pH8gEBOHLuUtoKYQ/J0pylcc1RP22UDlCGkPl/CE3jOGEWSQMm38cXSomCz5pKMCIjua5LknRuYCIA==",
+  "dgSpecHash": "To+AhoNaRcSo/pGNwOUXD1xwHPz++xFJq2WlHpHdlSIm6avNWqMm4TufWE/2DXZU9GpYFkgB6GEWbXkjfSwOvg==",
   "success": true,
   "projectFilePath": "/home/pece/projects/sy/blazor-chat-app/ChatApp/Client/ChatApp.Client.csproj",
   "expectedPackageFiles": [

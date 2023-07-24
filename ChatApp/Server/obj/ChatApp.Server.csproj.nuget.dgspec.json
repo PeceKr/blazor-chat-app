@@ -104,7 +104,8 @@
           "net6.0"
         ],
         "sources": {
-          "https://api.nuget.org/v3/index.json": {}
+          "https://api.nuget.org/v3/index.json": {},
+          "https://vparteam.pkgs.visualstudio.com/_packaging/VPAR/nuget/v3/index.json": {}
         },
         "frameworks": {
           "net6.0": {
